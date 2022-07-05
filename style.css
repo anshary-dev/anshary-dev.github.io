@@ -6,9 +6,9 @@
 .prev-works img{ 
     border-radius: 10px !important;
 }
-.work-1 {
-padding: 0;
-border-radius: 10px !important;
+.img-1 img, .img-2 img {
+    padding:0px !important;
+    width: 600px;
 }
 
 /* Responsive */
@@ -72,6 +72,29 @@ border-radius: 10px !important;
     }
     .card img {
         width: 17rem !important;
+    }
+    /* Projects */
+    .work-1 {
+        text-align: center !important;
+        padding: 15px !important;
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .work-sub1 h1, .work-sub2 h1 {
+        margin-top: 10px;
+        font-size: 17px !important;
+    }
+    .work-sub1 p,.work-sub2 p{
+        font-size: 13px !important;
+    }
+    .work-sub1 button, .work-sub2 button {
+        padding: 5px;
+        font-size: 13px;
+    }
+    .work-2 {
+        display: block;
+        text-align: center !important;
+        padding: 15px !important;
     }
 
   }
