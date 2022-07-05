@@ -12,6 +12,20 @@
 }
 
 /* Responsive */
+@media screen and (min-width: 1024px) {
+    .work-1, .work-2 {
+      padding:0 30px;
+    }
+  }
+@media screen and (min-width: 768px) {
+    .work-1, .work-2 {
+      padding:0 20px;
+    }
+    .work-title {
+        padding-bottom: 20px !important;
+    }
+  }
+  
 @media only screen and (max-width: 1024px) {
     .show-case h1 {
       font-size: 2.3rem;
@@ -60,6 +74,12 @@
     }
   }
   @media only screen and (max-width: 425px) {
+    .prev-works {
+        padding-top: 0px !important;
+    }
+    .work-title {
+        padding-top: 25px !important;
+    }
     button#hire-button {
      margin-top: 0 !important;
      padding: 5px 5px !important;  
