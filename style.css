@@ -10,6 +10,19 @@
     padding:0px !important;
     width: 600px;
 }
+/* CTA Contact */
+.contact-cta {
+    margin: 100px 0px !important;
+    background-image: url('/assets/img/banner-cta.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-cta h1 {
+    padding: 20px;
+    margin-left: 1%;
+}
 
 /* Responsive */
 @media screen and (min-width: 1024px) {
