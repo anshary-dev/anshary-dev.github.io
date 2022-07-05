@@ -1,0 +1,77 @@
+#hero-image { 
+    border-radius: 5% 20% !important;
+    border: none;
+}
+
+.prev-works img{ 
+    border-radius: 10px !important;
+}
+.work-1 {
+padding: 0;
+border-radius: 10px !important;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1024px) {
+    .show-case h1 {
+      font-size: 2.3rem;
+    }
+    .show-case p {
+        font-size: 16px !important;
+    }
+    .card {
+        width:18rem  !important;
+    }
+    .card img {
+        width: 18rem;
+        margin: auto;
+    }
+    .card h1 {
+        font-size: 25px !important;
+    }
+    .card p {
+        font-size: 12px;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .show-case {
+     padding: 10px !important;   
+    }
+    .card {
+        width:13rem  !important;
+        height: 250px;
+    }
+    .card img {
+        width: 13rem;
+        margin: auto;
+    }
+    .card h1 {
+        font-size: 20px !important;
+    }
+    .card p {
+        font-size: 10px;
+    }
+    
+    .work-1 h1, .work-2 h1 {
+        font-size: 25px !important;
+    }
+    .work-1 p, .work-2 p {
+        font-size: 20px !important;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    button#hire-button {
+     margin-top: 0 !important;
+     padding: 5px 5px !important;  
+     font-size: 17px;
+    }
+    .card {
+        width: 17rem !important; 
+        margin: 5px auto;
+        height: 300px;
+    }
+    .card img {
+        width: 17rem !important;
+    }
+
+  }
