@@ -3,6 +3,10 @@
     border: none;
 }
 
+.show-case {
+    margin-bottom: 100px !important;
+}
+
 .prev-works img{ 
     border-radius: 10px !important;
 }
@@ -96,6 +100,14 @@
         font-size: 20px !important;
     }
   }
+
+  /* Tablet Responsive */
+@media screen and (max-width: 767px) and (min-width: 426px) {
+    .card {        
+        margin: 20px auto;
+    }
+  }
+
   @media only screen and (max-width: 425px) {
     .prev-works {
         padding-top: 0px !important;
@@ -108,9 +120,13 @@
      padding: 5px 5px !important;  
      font-size: 17px;
     }
+    .main-content {
+        /* Ongoing */
+        margin-bottom: 70px !important;
+    }
     .card {
         width: 17rem !important; 
-        margin: 5px auto;
+        margin: 20px auto;
         height: 300px;
     }
     .card img {
