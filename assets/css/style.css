@@ -9,6 +9,15 @@
 .cards-item .content{
     margin: 0 auto 50px auto !important;
 }
+.content,.prev-works img{
+    transition: transform .5s;
+}
+.content:hover, .prev-works img:hover {
+    cursor: pointer;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
 .prev-works img{ 
     border-radius: 10px !important;
 }
