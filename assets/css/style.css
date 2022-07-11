@@ -69,6 +69,11 @@
     }
   }
 
+@media (min-width:769px) and (max-width:991px) {
+    .column-image {
+        margin: auto;
+    }
+}
 @media (min-width: 1025px) and (max-width:1199px) {
     .main-content .card {
         height: 25rem !important;
