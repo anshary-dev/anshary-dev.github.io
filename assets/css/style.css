@@ -60,6 +60,17 @@
     100% { opacity: 1; }
   }
 
+/* Contact Page */
+.contact-image {
+    background-image: url('/assets/img/anshary-info.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-radius: 20px;
+}
+
+
 
 /* Responsive */
 @media screen and (min-width: 1024px) {
