@@ -69,7 +69,11 @@
     height: 500px;
     border-radius: 20px;
 }
-
+.details-info {
+    padding: 50px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
 
 
 /* Responsive */
@@ -101,6 +105,9 @@
     }
     .cards-item img {
         width: 15rem !important;
+    }
+    .contact-image {
+        display: none;
     }
 }
 @media  (min-width: 426px) and (max-width: 1024px) {
@@ -162,6 +169,10 @@
 
   /* Tablet Responsive */
   @media only screen and (max-width: 425px) {
+    .contact-image {
+        margin: auto;
+        width: 100%;
+    }
     .prev-works {
         padding-top: 0px !important;
     }
