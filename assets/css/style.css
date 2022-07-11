@@ -47,6 +47,13 @@
     font-size: 18px !important;
 
 }
+
+/* About Page */
+.my-hobbies li{
+    list-style-type: square;
+}
+
+
 /* Responsive */
 @media screen and (min-width: 1024px) {
     .work-1, .work-2 {
@@ -60,9 +67,6 @@
     .work-title {
     padding-bottom: 20px !important;
     }
-    /* .cards-item .card {
-        height: 15rem !important;
-    } */
   }
 
 @media (min-width: 1025px) and (max-width:1199px) {
@@ -126,6 +130,10 @@
     }
     .work-1 p, .work-2 p {
         font-size: 20px !important;
+    }
+    .column-image img {
+        margin: auto;
+        width: 100%;
     }
   }
 
