@@ -18,8 +18,7 @@
 }
 /* CTA Contact */
 .contact-cta {
-    margin: 100px 0px !important;
-    background-image: url('/assets/img/banner-cta.jpg');
+    background-image: url('/assets/img/banner-cta-min.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -170,6 +169,13 @@
         padding: 15px !important;
     }
     /* CTA Contat */
+    .contact-cta {
+        margin: 100px 0px !important;
+        background-image: url('/assets/img/banner-cta-min.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
     .cta-item h1 {
         font-size: 27px !important;
     }
