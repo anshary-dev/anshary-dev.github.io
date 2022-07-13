@@ -2,17 +2,16 @@
     border-radius: 5% 20% !important;
     border: none;
 }
-
+.d-flex{
+    gap:30px;
+  }
 .show-case {
     margin-bottom: 50px !important;
 }
-.cards-item .content{
-    margin: 0 auto 50px auto !important;
-}
-.content,.prev-works img{
+.prev-works img{
     transition: transform .5s;
 }
-.content:hover, .prev-works img:hover {
+.prev-works img:hover {
     cursor: pointer;
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
@@ -97,64 +96,22 @@
     }
 }
 @media (min-width: 1025px) and (max-width:1199px) {
-    .main-content .card {
-        height: 25rem !important;
-        text-align: center !important;
-        margin: auto;
-        width: 15rem !important;
-    }
-    .cards-item img {
-        width: 15rem !important;
-    }
     .contact-image {
         display: none;
     }
 }
 @media  (min-width: 426px) and (max-width: 1024px) {
-    .cards-item .content{
-        margin: auto;
-        width: auto;
-    }
     .show-case h1 {
       font-size: 2.3rem;
     }
     .show-case p {
         font-size: 16px !important;
     }
-    .card {
-        width:18rem  !important;
-    }
-    .card img {
-        width: 18rem;
-        margin: auto;
-    }
-    .card h1 {
-        font-size: 25px !important;
-    }
-    .card p {
-        font-size: 12px;
-    }
-
   }
 @media only screen and (max-width: 768px) {
     .show-case {
      padding: 10px !important;   
     }
-    .card {
-        width:13rem  !important;
-        height: 250px;
-    }
-    .card img {
-        width: 13rem;
-        margin: auto;
-    }
-    .card h1 {
-        font-size: 20px !important;
-    }
-    .card p {
-        font-size: 10px;
-    }
-    
     .work-1 h1, .work-2 h1 {
         font-size: 25px !important;
     }
@@ -183,18 +140,6 @@
      margin-top: 0 !important;
      padding: 5px 5px !important;  
      font-size: 17px;
-    }
-    .main-content {
-        /* Ongoing */
-        margin-bottom: 70px !important;
-    }
-    .card {
-        width: 17rem !important; 
-        margin: 20px auto;
-        height: 300px;
-    }
-    .card img {
-        width: 17rem !important;
     }
     /* Projects */
     .work-1 {
@@ -253,7 +198,7 @@
 
 
 /* Scroll Animation */
-.reveal {
+  .reveal {
     position: relative;
     opacity: 0;
   }
