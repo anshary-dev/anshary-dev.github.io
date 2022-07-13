@@ -92,11 +92,6 @@
         margin: auto;
     }
 }
-@media (min-width:576px) and (max-width:991px) {
-    .main-content h2 {
-        /* font-size:20px ! important; */
-    }
-}
 @media (min-width: 1025px) and (max-width:1199px) {
     .contact-image {
         display: none;
@@ -110,6 +105,18 @@
         font-size: 16px !important;
     }
   }
+@media (max-width: 991px) and (min-width: 576px) {
+    .card-items {
+        text-align:  center !important;
+        width: 100% !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+    .card {
+        /* width: 100% !important; */
+        margin: 20px auto !important;
+    }
+}
 @media only screen and (max-width: 768px) {
     .show-case {
      padding: 10px !important;   
