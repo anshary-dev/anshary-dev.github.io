@@ -2,9 +2,6 @@
     border-radius: 5% 20% !important;
     border: none;
 }
-.d-flex{
-    gap:30px;
-  }
 .show-case {
     margin-bottom: 50px !important;
 }
@@ -97,7 +94,7 @@
 }
 @media (min-width:576px) and (max-width:991px) {
     .main-content h2 {
-        font-size:20px !important;
+        /* font-size:20px ! important; */
     }
 }
 @media (min-width: 1025px) and (max-width:1199px) {
