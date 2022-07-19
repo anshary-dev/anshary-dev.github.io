@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
     <title>Anshary Portfolio</title>
 
     <!-- Google Analytics -->
@@ -39,7 +41,7 @@
     <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="anshary-dev.github.io">
+          <a class="navbar-brand" href="index.html">
             <img src="/assets/img/T-3-min.png" alt="logo" height="60">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,7 +74,10 @@
             <div class="container-fluid">
                 <h1 class="display-5 col-md-6 pb-3 fw-bold">ANSHARY MACATANGCAL</h1>
                 <p class="col-md-10 col-lg-12 fs-4 mb-lg-0 pb-2">Professional Web Developer and Designer.</p>
-                <p class="col-md-10 col-lg-11 fs-5 mb-5 fst-italic">"Bring you the best digital solutions for every task and project."</p>                
+                <p class="col-md-10 col-lg-11 fs-5 mb-5 fst-italic">
+                  <span class="write"></span>                
+                </p>
+                <!-- <p class="col-md-10 col-lg-11 fs-5 mb-5 fst-italic">"Bring you the best digital solutions for every task and project."</p>                 -->
                 <a class="btn btn-danger btn-lg mt-3" id="hire-button" target=”_blank” href="https://drive.google.com/file/d/1RctNfjWTrcZdawM0EwTnwHBqAO7BHC0t/view?usp=sharing" download="anshary-cv">Download CV</a>
             </div>
         </div>
@@ -198,5 +203,15 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="/assets/javascript/main.js"></script>
+<script type="text/javascript">
+  $(function(){
+  $(".write").typed({
+    strings: ["Bring you the best digital solutions for every task and project."],
+    typeSpeed: 0.2,
+    startDelay: 0.5,
+    loop: true,
+  });
+  });
+</script>
 </body>
 </html>
